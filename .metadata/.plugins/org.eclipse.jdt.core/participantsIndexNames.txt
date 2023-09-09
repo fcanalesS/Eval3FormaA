@@ -1,0 +1,7 @@
+INDEX VERSION 1.134
+D:\Programas\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1138872473.index
+\BancoPlatinum\src\main\java
+D:\Programas\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3000971171.index
+\BancoPlatinum\src\main\java
+D:\Programas\Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1956507322.index
+\eval2-ic\src\main\java
