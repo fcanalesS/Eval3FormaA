@@ -10,7 +10,6 @@ import org.junit.Test;
 
 import com.bancoplatinum.dao.PersonaDAO;
 import com.bancoplatinum.dao.UsuarioDAO;
-import com.bancoplatinum.model.Usuario;
 import com.bancoplatinum.model.Persona;
 
 import static org.junit.Assert.*;
