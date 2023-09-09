@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>BancoPlatinum</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UsuarioController</display-name>
+    <servlet-name>UsuarioController</servlet-name>
+    <servlet-class>com.bancoplatinum.controller.UsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsuarioController</servlet-name>
+    <url-pattern>/UsuarioController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UsuarioController1</display-name>
+    <servlet-name>UsuarioController1</servlet-name>
+    <servlet-class>com.bancoplatinum.controller.UsuarioController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UsuarioController1</servlet-name>
+    <url-pattern>/usuario</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>PersonaController</display-name>
+    <servlet-name>PersonaController</servlet-name>
+    <servlet-class>com.bancoplatinum.controller.PersonaController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonaController</servlet-name>
+    <url-pattern>/persona</url-pattern>
+    
+  </servlet-mapping>
+</web-app>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.bancoplatinum.test.UsuarioTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.038 s <<< FAILURE! - in com.bancoplatinum.test.UsuarioTest
-com.bancoplatinum.test.UsuarioTest.testUser1  Time elapsed: 0.006 s  <<< ERROR!
+Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in com.bancoplatinum.test.UsuarioTest
+com.bancoplatinum.test.UsuarioTest.testUser1  Time elapsed: 0.007 s  <<< ERROR!
 java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 	at com.bancoplatinum.conexion.Conexion.getDataSource(Conexion.java:16)
 	at com.bancoplatinum.conexion.Conexion.getConnection(Conexion.java:32)
@@ -83,7 +83,7 @@ java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 Caused by: java.lang.ClassNotFoundException: org.apache.tomcat.dbcp.dbcp2.BasicDataSource
 	... 34 more
 
-com.bancoplatinum.test.UsuarioTest.testUser3  Time elapsed: 0.001 s  <<< ERROR!
+com.bancoplatinum.test.UsuarioTest.testUser3  Time elapsed: 0 s  <<< ERROR!
 java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 	at com.bancoplatinum.conexion.Conexion.getDataSource(Conexion.java:16)
 	at com.bancoplatinum.conexion.Conexion.getConnection(Conexion.java:32)
@@ -161,7 +161,7 @@ java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 Caused by: java.lang.ClassNotFoundException: org.apache.tomcat.dbcp.dbcp2.BasicDataSource
 	... 34 more
 
-com.bancoplatinum.test.UsuarioTest.testUserPersonaNoExiste  Time elapsed: 0.001 s  <<< ERROR!
+com.bancoplatinum.test.UsuarioTest.testUserPersonaNoExiste  Time elapsed: 0 s  <<< ERROR!
 java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 	at com.bancoplatinum.conexion.Conexion.getDataSource(Conexion.java:16)
 	at com.bancoplatinum.conexion.Conexion.getConnection(Conexion.java:32)
@@ -239,7 +239,7 @@ java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 Caused by: java.lang.ClassNotFoundException: org.apache.tomcat.dbcp.dbcp2.BasicDataSource
 	... 34 more
 
-com.bancoplatinum.test.UsuarioTest.testUserNombre  Time elapsed: 0 s  <<< ERROR!
+com.bancoplatinum.test.UsuarioTest.testUserNombre  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 	at com.bancoplatinum.conexion.Conexion.getDataSource(Conexion.java:16)
 	at com.bancoplatinum.conexion.Conexion.getConnection(Conexion.java:32)
@@ -278,7 +278,7 @@ java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 Caused by: java.lang.ClassNotFoundException: org.apache.tomcat.dbcp.dbcp2.BasicDataSource
 	... 34 more
 
-com.bancoplatinum.test.UsuarioTest.testUserApellido  Time elapsed: 0.001 s  <<< ERROR!
+com.bancoplatinum.test.UsuarioTest.testUserApellido  Time elapsed: 0 s  <<< ERROR!
 java.lang.NoClassDefFoundError: org/apache/tomcat/dbcp/dbcp2/BasicDataSource
 	at com.bancoplatinum.conexion.Conexion.getDataSource(Conexion.java:16)
 	at com.bancoplatinum.conexion.Conexion.getConnection(Conexion.java:32)

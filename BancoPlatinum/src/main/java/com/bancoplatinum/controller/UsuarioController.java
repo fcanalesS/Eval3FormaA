@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 import com.bancoplatinum.dao.UsuarioDAO;
-import com.bancoplatinum.model.Usuario;
 
 /**
  * Servlet implementation class UsuarioController
