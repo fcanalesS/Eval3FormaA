@@ -4381,3 +4381,9 @@ java.lang.Exception: File not found: D:\Programas\Workspace\BancoPlatinum\target
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-09 20:48:44.099
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-09 21:13:09.829
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-09-09 21:13:09.831
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

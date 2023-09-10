@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import javax.sql.DataSource;
 
-import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
+import org.apache.commons.dbcp.BasicDataSource;
 
 public class Conexion {
 	private static BasicDataSource dataSource = null;
@@ -20,8 +20,8 @@ public class Conexion {
 			
 			dataSource.setInitialSize(20);
 			dataSource.setMaxIdle(15);
-			dataSource.setMaxTotal(20);
-			dataSource.setMaxWaitMillis(5000);
+			//dataSource.setMaxTotal(20);
+			//dataSource.setMaxWaitMillis(5000);
 		}
 		
 		return dataSource;
